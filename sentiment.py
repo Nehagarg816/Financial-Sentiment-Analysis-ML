@@ -209,14 +209,14 @@ def lstmRNN(data):
 
 
 def main():  # sourcery skip: extract-method
-    st.markdown('<h1 style="color:dark blue;">Sentiment Analysis of financial news of big technology companies</h1>', unsafe_allow_html=True)
-    st.image("https://recosenselabs.com/?attachment_id=20903", caption="Financial Sentimental Analysis")
+    st.markdown('<h1 style="color:dark blue;">Sentiment Analysis of Financial news of Big Tech companies</h1>', unsafe_allow_html=True)
+    st.image("image.jpg", caption="Financial Sentimental Analysis")
 
     st.text("This project is about predicting the sentiments of financial news headlines viz. ")
     st.text(" positive(0), negative(1) and neutral(2).")
     st.text("The real time financial news headlines of 4 tech giants Google,Amazon,Netflix ")
     st.text("and Apple are scraped from finviz using python library BeautifulSoup.")
-    st.text("Sentiment analysis has been done using two techniques : Kmeans and nltk library. ")
+    st.text("Sentiment analysis has been done using three techniques : Kmeans, nltk library and LSTM RNN. ")
     st.text("User can choose the technique by which they want to see the prediction of sentiment. ")
 
     if st.button("View dataframe"):
