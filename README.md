@@ -69,4 +69,9 @@
 <h5>Deployment is done using Streamlit</h5>
 <p>
   Website Link: https://nehagarg.streamlit.app/
+
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/aeeb2ab6-fefc-4663-9ee4-a2e652ee0315" alt="image"><br><br>
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/5294a025-f9fb-4f40-b162-61d0a36dac16" alt="image"><br><br>
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/3f76803a-b84c-48fb-91c4-3d44ed3c9ac2" alt="image"><br><br>
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/1e5d2923-76ec-41e7-b0be-a4e52f7c72dd" alt="image"><br>
 </p>
