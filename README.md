@@ -29,9 +29,6 @@
 
   > used to group similar data points together in a process known as clustering. There are three clusters for sentiments like <b>Positive, Negative, and Neutral</b>.
 
-  > Results are visualized using matplotlib.
-  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/9c5ce2ef-a0fa-41d8-85df-4c0264501cec" alt="image" width=500/>
-
 
 </details>
 
@@ -42,6 +39,8 @@
 
   > Sentiment analysis is done using the NLTK library, more especially the VADER sentiment analyzer. Headlines are categorised as good, negative, or neutral based on the computation of sentiment scores.
 
+  > Results are visualized using matplotlib.
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/9c5ce2ef-a0fa-41d8-85df-4c0264501cec" alt="image" width=500/>
 
 </details>
 
@@ -52,31 +51,24 @@
   
   > The preprocessed data is used to train an LSTM RNN model for more sophisticated sentiment analysis. Based on the patterns that were learned from the text input through K-Means clustering, the model classifies attitudes as positive, negative, or neutral, thereby confirming its predictions.
 
+  > Results for the RNN model are visualized using a pie chart in Matplotlib.
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/8f4d2362-8172-478d-bd59-7b953d2675cb" alt="image" width=500>
+
 </details>
 
-<h2>Features</h2>
-<ul>
-  <li>You can sign-up or log-in here to start creating your listings if you want others to visit the place and have the same fun.
-  <br><br>
-    <img src="https://github.com/Nehagarg816/Wanderlust/assets/111566521/82b5e05d-9476-417e-a09f-c4decd3f6503" alt="listing" width="550">
-  </li>
-  <li>Here you can create your listing and upload pictures.
-    <br><br>
-    <img src="https://github.com/Nehagarg816/Wanderlust/assets/111566521/33403274-8b99-4c5b-b88f-c54ba5782b57" alt="listing" width="550">
-  </li>
-  <li>You can explore the broader view of listings of other users and select your destinations.
-    <br><br>
-    <img src="https://github.com/Nehagarg816/Wanderlust/assets/111566521/4423a1f5-58c8-43ef-83e3-fff1c46d07fa" alt="listing" width="550">
-  </li>
-  <li>You can leave ratings and reviews on listing of other users.
-  <br><br>
-    <img src="https://github.com/Nehagarg816/Wanderlust/assets/111566521/728ef434-2b52-41eb-b349-07f7ceae01ab" alt="listing" width="550">
-  </li>
+<h3>Mismatch Between both models</h3>
+<details>
+  <summary>KMeans v/s RNN</summary>
+  <img src="https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/933e0949-9b49-41b8-89b1-cdd3b41a7c33" alt="image" width=500>
+</details>
 
-</ul>
+<h3>Google Colab</h3>
+<p>Link: https://colab.research.google.com/drive/1R3FEyEI9Z6pF_bfCAH70tW7LAFvl8qpY?usp=sharing</p>
 
 <h3>Deployment</h3>
 <h5>Deployment is done using Streamlit</h5>
 <p>
   Website Link: https://nehagarg.streamlit.app/
+
+  ![image](https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML/assets/111566521/d2dafefa-478b-4ee6-8cdd-bbf2bb0d82f4)
 </p>
